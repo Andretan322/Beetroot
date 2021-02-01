@@ -1,0 +1,78 @@
+body {
+  text-align: center;
+  font-family: "Sriracha", cursive;
+  font-weight: 600;
+  font-size: 24px;
+  padding: 5px 10px 0px 10px;
+  background-color: #364958;
+  color: #364958;
+}
+
+header {
+  padding-top: 10px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-container {
+  background-color: #ffffffe3;
+  border-radius: 20px;
+  box-shadow: 0 0 20px #ffffffe3;
+  padding: 0px 10px 0px 10px;
+}
+
+img {
+  width: 350px;
+  border-radius: 20px;
+  margin-bottom: 35px;
+}
+
+.about-me {
+  border-radius: 20px;
+  margin: 5px;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contacts,
+.education,
+.hard-skills,
+.soft-skills {
+  border-radius: 20px;
+  margin: 5px;
+  text-align: left;
+}
+
+.center {
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: #364958;
+}
+
+a:hover {
+  color: #800e13;
+  zoom: 1.1;
+}
+
+.language:hover {
+  zoom: 1;
+}
+
+.line {
+  height: 10px;
+  border-radius: 20px;
+  background-color: #364958;
+}
+
+footer {
+  color: #ffffffe3;
+}
