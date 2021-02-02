@@ -1,0 +1,90 @@
+body {
+  font-family: "Sriracha", cursive;
+  font-weight: 600;
+  font-size: 20px;
+  padding: 5px 10px 0px 10px;
+  background-color: #364958;
+  color: #364958;
+}
+
+.semantic {
+  background-color: #ffffffe3;
+  border-radius: 20px;
+  box-shadow: 0 0 20px #ffffffe3;
+  padding: 0px 10px 0px 10px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.article {
+  display: flex;
+}
+
+.near_shops {
+  width: 100%;
+  margin: 5px;
+  border: 5px solid #b6dcfe;
+  border-radius: 10px;
+}
+
+.name_of_shop,
+.product_name,
+.products_photo {
+  text-align: center;
+}
+
+.shops,
+.food_ul {
+  padding: 0px 5px 0px 5px;
+}
+
+.shop,
+.food {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: #364958;
+}
+
+.a_shop {
+  text-decoration: none;
+  font-size: 16px;
+  color: #8b8c89;
+}
+
+a:hover {
+  color: #800e13;
+}
+
+.a_shop:hover {
+  color: #800e13;
+}
+
+.todo,
+.near_shops,
+.aside {
+  width: 100%;
+  margin: 5px;
+  border: 5px solid#364958;
+  border-radius: 20px;
+}
+
+.aside {
+  text-align: center;
+}
+
+.img {
+  width: 100px;
+  height: 100px;
+  margin: 5px;
+  border-radius: 20px;
+}
+
+.img_git {
+  width: 100px;
+}
