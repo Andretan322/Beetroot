@@ -1,0 +1,43 @@
+body {
+  width: 800px;
+  margin: 0 auto;
+  font-size: 18px;
+}
+
+.top {
+  background-color: #a52a2a;
+  color: #ffffff;
+  text-align: center;
+}
+
+.sunset img {
+  text-align: center;
+  width: 100%;
+}
+
+.main a {
+  text-decoration: none;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.cars {
+  display: flex;
+  justify-content: center;
+}
+
+.cars div {
+  margin: 0px 3px;
+  border: 3px dashed #000000;
+}
+
+.other a {
+  text-decoration: none;
+}
+
+.foot {
+  background-color: #000000;
+  color: #ffffff;
+  text-align: center;
+  font-size: 20px;
+}
