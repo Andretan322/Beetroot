@@ -1,0 +1,169 @@
+/*Обнуление*/
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+:focus,
+:active {
+  outline: none;
+}
+a:focus,
+a:active {
+  outline: none;
+}
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+input::-ms-clear {
+  display: none;
+}
+button {
+  cursor: pointer;
+}
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+a,
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+ul li {
+  list-style: none;
+}
+img {
+  vertical-align: top;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+/*--------------------*/
+
+body {
+  background: #121116;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  background: #202020;
+  color: #fff;
+  padding: 100px 220px 100px 220px;
+  font-family: Raleway;
+}
+
+.content-container {
+  margin-right: 50px;
+}
+
+.content-container:last-child {
+  margin-right: 0;
+}
+
+.content-container-image {
+  margin: 0 auto;
+  width: 73px;
+  height: 73px;
+  border-radius: 20px 0;
+  background-color: #ffae00;
+  margin-bottom: 37px;
+  font-weight: 400;
+}
+
+.content-container-image i {
+  font-size: 35px;
+  padding: 19px;
+}
+
+.content-container_title {
+  font-size: 24px;
+  margin-bottom: 25px;
+}
+
+.content-container_info {
+  font-size: 14px;
+  line-height: 24px;
+}
+
+footer {
+  padding: 100px 0 40px 0;
+  background: #121116;
+  display: flex;
+  justify-content: center;
+}
+
+.other {
+  color: #ffffff;
+  text-align: center;
+}
+
+.other_logo {
+  margin-bottom: 50px;
+}
+
+.other_label {
+  font-family: "Open Sans";
+  font-size: 20px;
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+}
+
+.other_separator {
+  margin-bottom: 10px;
+}
+
+.other-social {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 100px;
+}
+
+.other-social img {
+  height: 15px;
+}
+
+.other_copyright {
+  font-family: "Open Sans";
+  font-size: 15px;
+}
+
+a {
+  color: #00c7fc;
+}
