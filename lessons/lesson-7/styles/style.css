@@ -1,0 +1,47 @@
+body {
+  font-family: "Sriracha", cursive;
+  font-weight: 600;
+  font-size: 20px;
+  padding: 5px 10px 0px 10px;
+  background-color: #364958;
+  color: #364958;
+}
+
+.semantic {
+  background-color: #ffffffe3;
+  border-radius: 20px;
+  box-shadow: 0 0 20px #ffffffe3;
+  padding: 0px 10px 0px 10px;
+}
+
+.head nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.head a {
+  text-decoration: none;
+  color: #364958;
+}
+
+.head a:hover {
+  color: #800e13;
+}
+
+.main {
+  display: flex;
+  justify-content: space-around;
+}
+
+.main img {
+  width: 600px;
+  height: 400px;
+  border-radius: 20px;
+  opacity: 70%;
+}
+
+.main img:hover {
+  zoom: 1.1;
+  box-shadow: 0 0 30px#364958;
+  opacity: 100%;
+}
