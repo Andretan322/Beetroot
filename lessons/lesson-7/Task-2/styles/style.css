@@ -1,0 +1,191 @@
+/*Обнуление*/
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+:focus,
+:active {
+  outline: none;
+}
+a:focus,
+a:active {
+  outline: none;
+}
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+input::-ms-clear {
+  display: none;
+}
+button {
+  cursor: pointer;
+}
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+a,
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+ul li {
+  list-style: none;
+}
+img {
+  vertical-align: top;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+* {
+  transition: all 0.1s ease-in;
+}
+/*--------------------*/
+body {
+  padding: 20px;
+  background: #2b81ac;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+#background {
+  height: 100%;
+  background: #3399cc;
+}
+
+.content {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.content_title {
+  padding: 30px 0;
+  font-size: 30px;
+}
+
+.content-main {
+  margin: 0 0 20px;
+  font-size: 24px;
+}
+
+.content-main-list {
+  font-size: 0;
+  outline: 3px solid #ffffff;
+}
+
+.content-main-list:hover li:not(:hover) {
+  opacity: 70%;
+}
+
+li {
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center;
+  padding: 35px 0;
+  font-size: 24px;
+  font-weight: 500;
+  height: 140px;
+  display: inline-block;
+  width: 25%;
+  border: 3px solid white;
+}
+
+span {
+  display: block;
+  opacity: 70%;
+  font-weight: 400;
+  margin-top: 15px;
+}
+
+.wi {
+  font-size: 34px;
+}
+
+#Lisbon {
+  width: 50%;
+}
+
+#Paris {
+  background: #33cccc;
+}
+
+#Belgrade {
+  background: #996699;
+}
+
+#Moscow {
+  background: #c24747;
+}
+
+#Tel-Aviv {
+  background: #e2674a;
+}
+
+#Cair {
+  background: #ffcc66;
+}
+
+#New-York {
+  background: #99cc99;
+}
+
+#New-Delhi {
+  background: #669999;
+}
+
+#San-Francisco {
+  width: 50%;
+  background: #cc6699;
+}
+
+#Tokyo {
+  background: #339966;
+}
+
+#Sydney {
+  background: #666699;
+  width: 100%;
+}
+
+.content_info {
+  padding: 17px 0;
+  font-size: 24px;
+}
