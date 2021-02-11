@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="shortcut icon" type="image/ico" href="icons/favicon.png" />
+    <title>CSS Diner Shopping List</title>
+  </head>
+  <body>
+    <div class="content">
+      <!-- top section -->
+      <header class="top">
+        <!-- Selector "id" - capitilize -->
+        <h1 id="title">CSS diner shopping list</h1>
+
+        <!-- Selector "h1+h3" -->
+        <h2>Let's go to the mall!</h2>
+      </header>
+
+      <!-- main info, list of items -->
+      <main>
+        <!-- Selector "nth-child"  -->
+        <section class="list">
+          <!-- Selector ":hover" and ":active" -->
+          <div class="lists">
+            <label for="pickle">
+              <div class="list-items">
+                <!-- Selector ":checked" and "+" -->
+                <input
+                  type="checkbox"
+                  name="products"
+                  id="pickle"
+                  class="list-items_input"
+                />
+                <!-- Selector ":before" and ":after" -->
+                <span class="white">A lot of pickles </span>
+                <span class="grey">for the next lessons about CSS</span>
+              </div>
+            </label>
+          </div>
+
+          <div class="lists">
+            <label for="apple">
+              <div class="list-items">
+                <input
+                  type="checkbox"
+                  name="products"
+                  id="apple"
+                  class="list-items_input"
+                />
+                <span class="white">10 apples </span>
+                <span class="grey">for more CSS manipulations</span>
+              </div>
+            </label>
+          </div>
+
+          <div class="lists">
+            <label for="orange">
+              <div class="list-items">
+                <input
+                  type="checkbox"
+                  name="products"
+                  id="orange"
+                  class="list-items_input"
+                />
+
+                <span class="white">20 oranges </span>
+                <span class="grey">because they are awesome</span>
+              </div>
+            </label>
+          </div>
+
+          <div class="lists">
+            <label for="plate">
+              <div class="list-items">
+                <input
+                  type="checkbox"
+                  name="products"
+                  id="plate"
+                  class="list-items_input"
+                />
+
+                <span class="white">13 plates </span>
+                <span class="grey">hm... they always dissappear</span>
+              </div>
+            </label>
+          </div>
+
+          <div class="lists">
+            <label for="bento">
+              <div class="list-items">
+                <input
+                  type="checkbox"
+                  name="products"
+                  id="bento"
+                  class="list-items_input"
+                />
+                <span class="white">15 bentos</span>
+              </div>
+            </label>
+          </div>
+
+          <div class="lists">
+            <label for="sake">
+              <div class="list-items">
+                <input
+                  type="checkbox"
+                  name="products"
+                  id="sake"
+                  class="list-items_input"
+                />
+
+                <span class="white">1 bottle of Sake ^_^ </span>
+                <span class="grey">for my friends</span>
+              </div>
+            </label>
+          </div>
+        </section>
+      </main>
+
+      <footer class="bottom">
+        <span id="foot">Bon appetit :)</span>
+      </footer>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,184 @@
+/*Обнуление*/
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+:focus,
+:active {
+  outline: none;
+}
+a:focus,
+a:active {
+  outline: none;
+}
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+input::-ms-clear {
+  display: none;
+}
+button {
+  cursor: pointer;
+}
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+a,
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+ul li {
+  list-style: none;
+}
+img {
+  vertical-align: top;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+* {
+  transition: all 0.1s ease-in;
+}
+/*--------------------*/
+
+@font-face {
+  font-family: "Trebuchet MS Regular";
+  src: url("../fonts/TrebuchetMS.eot");
+  src: url("../fonts/TrebuchetMS.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/TrebuchetMS.woff") format("woff"),
+    url("../fonts/TrebuchetMS.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: "Trebuchet MS Regular", Arial, sans-serif;
+  padding: 20px;
+}
+
+.content {
+  background: #3b3f45;
+  height: 100%;
+}
+
+.top {
+  background: #4a4f56;
+  color: #eb7e7f;
+  text-align: center;
+  padding: 20px 0;
+}
+
+#title {
+  font-weight: 900;
+  text-transform: capitalize;
+  font-size: 40px;
+}
+
+#title + h2 {
+  font-size: 26px;
+  padding-top: 10px;
+}
+
+.list {
+  margin: 40px auto;
+  max-width: 800px;
+  color: #ffffff;
+  font-size: 32px;
+}
+
+.list-items {
+  padding: 15px 10px;
+}
+
+.lists:nth-child(odd) {
+  background: #88839e;
+}
+
+.lists:nth-child(even) {
+  background: #7a7593;
+}
+
+.list-items:hover {
+  border-top: 5px solid white;
+  border-bottom: 5px solid white;
+  background: #625e77;
+}
+
+.list-items:active {
+  background: #ef887a;
+}
+
+input[type="checkbox"] {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+}
+
+input[type="checkbox"]:checked + span,
+input[type="checkbox"]:checked + span + span {
+  color: #a29eb3;
+  text-decoration: line-through;
+}
+
+.grey {
+  display: inline-block;
+  vertical-align: 4px;
+  color: #c5b9b9;
+  font-size: 20px;
+}
+
+.grey::before {
+  content: "(";
+}
+
+.grey::after {
+  content: ")";
+}
+
+.bottom {
+  background: #4a4f56;
+  color: #eb7e7f;
+  text-align: center;
+  padding: 25px 0;
+  max-width: 800px;
+  margin: 0 auto;
+  font-size: 26px;
+}
